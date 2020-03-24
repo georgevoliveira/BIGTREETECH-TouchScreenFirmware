@@ -40,8 +40,8 @@
  *
  * Options: BLACK, BLUE, BROWN, BRRED, CYAN, GBLUE, GRAY, GREEN, MAGENTA, RED, WHITE, YELLOW
  */
-#define ST7920_BKCOLOR BLACK
-#define ST7920_FNCOLOR YELLOW
+#define ST7920_BKCOLOR WHITE
+#define ST7920_FNCOLOR BLACK
 
 /**
  *  Text displayed at the top of the TFT in Marlin Mode.
@@ -53,7 +53,7 @@
  *
  *  *** NOT RECOMMENDED FOR TFT24 ***
  */
-//#define ST7920_FULLSCREEN
+#define ST7920_FULLSCREEN
 
 /**
  * Clean Mode Switching Support
