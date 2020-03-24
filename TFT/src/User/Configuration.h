@@ -153,9 +153,9 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 235
-#define Y_MAX_POS 235
-#define Z_MAX_POS 250
+#define X_MAX_POS 350
+#define Y_MAX_POS 350
+#define Z_MAX_POS 400
 
 // Specify a pause position as { X, Y, Z_raise }
 #define NOZZLE_PAUSE_RETRACT_LENGTH 15   // (mm)
@@ -172,7 +172,7 @@
 #ifdef AUTO_BED_LEVELING
   // Enable this will send "M500" after "G29" to store leveling value
   // and send "M420 S1" to enable leveling state after startup
-  //#define AUTO_SAVE_LOAD_LEVELING_VALUE
+  #define AUTO_SAVE_LOAD_LEVELING_VALUE
 #endif
 
 // Move to four corner points to Leveling manually (Point 1, Point 2, Point 3, Point 4)
@@ -246,7 +246,7 @@
  *
  * Note: This may slow down graphics while switching menus while printing.
 */
-#define RAPID_SERIAL_COMM
+//#define RAPID_SERIAL_COMM
 
 /**
  * Custom G-code Commands
